@@ -90,7 +90,7 @@ const promptMenu = () => {
                 promptIntern()
                 break
             case "Add an programmer":
-                promptEngineer()
+                promptProgrammer()
                 break
             default:
                 buildTeam(team)
