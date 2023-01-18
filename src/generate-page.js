@@ -17,7 +17,7 @@ function generateCards(team) {
         cards.push(generateManagerCard(manager));
         break;
       case "Programmer":
-        const engineer = new Programmer(
+        const programmer = new Programmer(
           teamArray.id,
           teamArray.name,
           teamArray.email,
