@@ -77,7 +77,6 @@ let generateInternCard = (Intern) => {
   <div class="card m-1 shadow" style="width: 18rem">
     <div class='card-header'>
       <h3 class="card-title">${Intern.getName()}</h3>
-      ////
       <h6 class="card-text"><i class="fa fa-graduation-cap"></i> ${Intern.getRole()}</h6>
     </div>
     <div class="card-body">
